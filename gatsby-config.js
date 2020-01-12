@@ -66,6 +66,19 @@ module.exports = {
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
       }
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@src": "src",
+          "@components": "src/components",
+          "@elements": "src/components/Elements",
+        },
+        extensions: [
+          "js",
+        ],
+      }
+    },
     // Add fonts here
     // {
     //   resolve: `gatsby-plugin-google-fonts`,

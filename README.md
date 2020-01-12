@@ -9,3 +9,4 @@ Make sure you have the gatsby cli installed
 * Tailwind
 * Font-Awesome
 * DotEnv (supports .env loading)
+* Alias imports (allows you to do "@components" instead of "../src/components" etc)
